@@ -8,9 +8,13 @@
     <title>Deluxe Drinks - HomePage</title>
 </head>
 <body>
-    <div id="login_signup" class="login_signup">
-        <input type="button" id="login" name="login" value="login" href="php/login.php">
-        <input type="button" id="register" name="register" value="register" href="php/registration.php">
+    <div id="login_signup" class="login_signup"></div>
+        <form action="php/login.php" method="get">
+            <input type="submit" id="login" name="login" value="login">
+        </form>
+        <form action="php/register.php" method="get">
+            <input type="submit" id="register" name="register" value="register">
+        </form>
     </div>
     <header class="Header">
         <h1>Deluxe Drinks</h1>
