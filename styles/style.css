@@ -9,13 +9,13 @@ fieldset {
   }
 html {
     scroll-behavior: smooth;
+    background-color: #272727;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family:'Times New Roman', Times, serif;
-    /* background-color: #272727;*/
 } 
 
 .navBar{
@@ -77,3 +77,30 @@ body {
      color: #ffffff;
  }
 
+ .login_signup {
+     padding: 0.5em;
+     margin-right: 0.1em;
+     font-size: 1.5em;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+
+ #login, #register {
+     font-size: 0.7em;
+     border: black 0.3em solid;
+     border-radius: 0.9em;
+     padding: 5px;
+     text-decoration: solid;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ #login:hover, #register:hover {
+    background-color: red;
+ }
+
+ #login {
+     margin-right: 0.7em;
+ }
