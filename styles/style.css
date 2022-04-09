@@ -7,6 +7,9 @@ label {
     display: inline-block;
   }
 
+p {
+      color: white;
+  }
 fieldset {
     width: 30em;
   }
