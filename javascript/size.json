@@ -1,0 +1,13 @@
+[
+    {
+    "name":"size",
+    "code":"small",
+    "description":"Small"
+    },
+
+    {
+        "name":"size",
+        "code":"medium",
+        "description":"Medium"
+    }
+]

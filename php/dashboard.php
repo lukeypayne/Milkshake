@@ -1,5 +1,4 @@
 <?php
-//include auth_session.php file on all user panel pages
 include("auth_session.php");
 ?>
 <!DOCTYPE html>
@@ -18,7 +17,7 @@ include("auth_session.php");
     <nav class="navBar" id="navBar">
         <ul class="navClass" id="navClass">
             <li><a aria-current="page" href="#">Home</a> | </li>
-            <li><a href="order.html">Menu</a> | </li>
+            <li><a href="order.php">Order</a> | </li>
             
             <li><a href="#">Home</a> | </li>
             <li><a href="#">Home</a> | </li>
